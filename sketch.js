@@ -108,6 +108,8 @@ function setup() {
   // --- Manual Garbage Collect ---
   nirReds = null;
   nirNIR = null;
+  
+  ndviImage.save('NDVI','jpg');
 
 }
 
